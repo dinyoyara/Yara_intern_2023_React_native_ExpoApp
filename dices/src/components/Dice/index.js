@@ -3,9 +3,7 @@ import { View, Text } from 'react-native';
 
 import styles from './styles';
 
-const Dice = () => {
-    const number = 5;
-
+const Dice = ({ number }) => {
     return (
         <View style={styles.container}>
             <Text style={styles.number}>{number}</Text>

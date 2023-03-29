@@ -8,6 +8,7 @@ const styles = StyleSheet.create({
         backgroundColor: 'rgba(255,235,205, 1)'
     },
     title: {
+        marginBottom: 10,
         color: 'rgba(85,107,47, 0.8)',
         backgroundColor: 'rgba(255,235,205, 1)',
         borderWidth: 3,
