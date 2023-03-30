@@ -19,10 +19,17 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         textAlign: 'center'
     },
+    result: {
+        marginBottom: 0,
+        marginTop: 'auto'
+    },
     dices_container: {
         marginVertical: 180,
         flexDirection: 'row',
         justifyContent: 'space-around'
+    },
+    buttons_container: {
+        marginTop: 'auto'
     }
 });
 
